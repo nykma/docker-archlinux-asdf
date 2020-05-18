@@ -1,0 +1,7 @@
+version: "3"
+services:
+  archlinux-asdf:
+    image: nykma/archlinux-asdf:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
